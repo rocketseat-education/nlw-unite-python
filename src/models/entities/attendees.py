@@ -2,7 +2,6 @@ from src.models.settings.base import Base
 from sqlalchemy import Column, String, DateTime, ForeignKey
 from sqlalchemy.sql import func
 
-
 class Attendees(Base):
     __tablename__ = "attendees"
 
